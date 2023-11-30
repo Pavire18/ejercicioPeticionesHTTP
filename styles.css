@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+
+.container{
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 500px;
+    padding: 10px;
+}
+.form_data{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+.nombre{
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.btn_adivinar{
+    background-color: #8c8a4a;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 13px;
+}
+.btn_adivinar:hover{
+    background-color: #414022;
+}
+.titulo{
+    font-size: 50px;
+    color: white;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+.result_container{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.result{
+    font-size: 100px;
+    font-weight: bold;
+}
